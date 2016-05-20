@@ -8,7 +8,7 @@
 
 library(shiny)
 shinyUI(pageWithSidebar(
-  headerPanel('Effects on Reaction time from days without sleep'),
+  headerPanel('Prediction of Subject Reaction Time Based on Linear Analysis of Sleep Deprivation Data'),
     sidebarPanel(
       numericInput("daysWithoutSleep", "Provide Days Without Sleep:",0,min=0,max=30, step=1),
       submitButton('Submit')
